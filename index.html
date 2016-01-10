@@ -17,13 +17,14 @@
     var southWest = L.latLng(39.87, -106.86),
         northEast = L.latLng(40.89, -104.46),
         bounds = L.latLngBounds(southWest, northEast);
-    var map = L.mapbox.map('map', 'kevrein.jjb5lcik',){
+    var map = L.mapbox.map('map', 'kevrein.jjb5lcik',{
         maxBounds: bounds,
         maxZoom: 7,
         minZoom: 3,
         tileLayer: {
             detectRetina: true
     }
+    })
 </script>
 </body>
 </html>
